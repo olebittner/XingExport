@@ -60,7 +60,7 @@ def parse_contacts(raw_contacts: []):
 
 all_contacts = []
 
-with contextlib.closing(Firefox(executable_path='geckodriver.exe')) as driver:
+with contextlib.closing(Firefox()) as driver:
     wait = ui.WebDriverWait(driver, 300)
     driver.get('https://www.xing.com/settings')
     wait.until(lambda driver: str(driver.current_url).startswith(start_url))
