@@ -6,7 +6,7 @@ A simple python script that uses Selenium to export all your Xing.com contacts a
 1. Make sure ``python`` and ``pip`` are installed
 2. Clone this git ``git clone https://github.com/olebittner/XingExport``
 3. Run ``pip install -r requirements.txt``
-4. Download the latest geckodriver from ``https://github.com/mozilla/geckodriver/releases`` and extract the binary into the project directory
+4. Download the latest geckodriver from https://github.com/mozilla/geckodriver/releases and extract the binary into the project directory
 
 ## Usage
 1. execute the script eg.: ``python3 XingNetworkExport.py``
