@@ -1,7 +1,7 @@
 # XingExport
 A simple python script that uses Selenium to export all your Xing.com contacts and save them in a convenient Excel table.
 
-![](https://i.imgur.com/kOhoUEs.png)
+![](https://i.imgur.com/AIval9A.png)
 ## Installation
 1. Make sure ``python`` and ``pip`` are installed
 2. Clone this git ``git clone https://github.com/olebittner/XingExport``

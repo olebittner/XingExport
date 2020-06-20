@@ -73,7 +73,7 @@ contacts_sheet = workbook.add_worksheet('Contacts')
 col_width = [0] * 5 + [12]
 
 cols = []
-for col in ['Name', 'Vorname', 'Firma', 'Titel', 'Notiz', 'Xing-Profil']:
+for col in ['Name', 'First Name', 'Organisation', 'Title', 'Note', 'Xing-Profile']:
     cols.append({'header': col})
 
 contacts_sheet.add_table(0, 0, len(all_contacts), 5, {'columns': cols})
