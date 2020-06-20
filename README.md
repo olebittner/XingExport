@@ -1,4 +1,10 @@
-# XingExport
+<p align="center">
+  <a href="https://github.com/olebittner/XingExport">
+    <img src="images/logo.svg" alt="Logo" width="90" height="90">
+  </a>
+  <h3 align="center">XingExport</h3>
+</p>
+
 A simple python script that uses Selenium to export all your Xing.com contacts and save them in a convenient Excel table.
 
 ![](https://i.imgur.com/AIval9A.png)
